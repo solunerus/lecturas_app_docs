@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Arquos OPR',
   tagline: '¡La mejor aplicacion para gestion y manejo de medidores de agua!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo_arquos_opr_vacio.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -86,7 +86,7 @@ const config = {
         title: 'Arquos OPR',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_arquos_opr_lleno.png',
         },
         items: [
           {
