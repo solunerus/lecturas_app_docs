@@ -67,8 +67,8 @@ elegir **un subsistema especifico**, luego un **sector** de ese subsistema y, po
 
 ### 1.2 - Capturar lecturas
 
-Para poder capturar, es necesario
-[iniciar sesión como empleado](/docs/introduccion/Iniciar_sesion#Empleado);
+Para poder capturar, es necesario iniciar sesión como
+[empleado](/docs/introduccion/Iniciar_sesion#Empleado);
 al seleccionar esta opción, abrirá una pestaña donde nos pedirá seleccionar **una ruta**.
 Estas se descargan en la opción de
 [Bajar ruta](/docs/usuarios/inicio-usuarios#11---bajar-rutas); tendremos 2 opciónes capturar ya sea
@@ -78,13 +78,7 @@ Estas se descargan en la opción de
 <div className="table-center-wrapper">
   <table className="table-no-border">
     <tr>
-      <td align="center" valign="top">
-        <img
-          src="/img/arquos_opr/usuarios/dashboard-usuario/capturar_lecturas_todos.jpg"
-          alt="Configurar conexion validada"
-          width="260"
-        />
-      </td>
+     
       <td align="center" valign="top">
         <img
           src="/img/arquos_opr/usuarios/dashboard-usuario/capturar_lecturas_uno.jpg"
@@ -92,15 +86,25 @@ Estas se descargan en la opción de
           width="260"
         />
       </td>
+     <td align="center" valign="top">
+        <img
+          src="/img/arquos_opr/usuarios/dashboard-usuario/capturar_lecturas_todos.jpg"
+          alt="Configurar conexion validada"
+          width="260"
+        />
+      </td>
     </tr>
     <tr>
       <td align="center">
-        <b> Capturar todos </b>
+        <b> Capturar uno en uno</b>
+
       </td>
       <td align="center">
-        <b> Capturar uno en uno</b>
+        <b> Capturar todos </b>
+
       </td>
     </tr>
+
   </table>
 </div>
 
@@ -110,16 +114,16 @@ Si tu decisión fue capturar una por una y ya seleccionaste una ruta en específ
 lo siguiente que se mostrará serán todos los medidores ubicados en la ruta seleccionada; aquí
 podrás hacer uso de algunas herramientas para una búsqueda más rápida y eficaz.
 
-- **Búsqueda rápida**:Escribe alguno de los datos que se muestran, como dirección, cuenta,
-  medidor o de algún medidor en específico.
+1.  **Búsqueda rápida**:Escribe alguno de los datos que se muestran, como dirección, cuenta,
+    medidor o de algún medidor en específico.
 
-- **Localización de medidor y toma de agua**: En la parte inferior de la ruta del medidor se
-  encuentra un signo de un mapa; este nos proporciona la ruta exacta del medidor, además de la
-  ruta de la toma de agua.
+2.  **Localización de medidor y toma de agua**: En la parte inferior de la ruta del medidor se
+    encuentra un signo de un mapa; este nos proporciona la ruta exacta del medidor, además de la
+    ruta de la toma de agua.
 
-- **Consultar búsqueda anterior**: Este botón, ubicado en la parte inferior derecha de la
-  pantalla, nos mostrará el último medidor al que el usuario consultó antes de salir de esta
-  ventana.
+3.  **Consultar búsqueda anterior**: Este botón, ubicado en la parte inferior derecha de la
+    pantalla, nos mostrará el último medidor al que el usuario consultó antes de salir de esta
+    ventana.
 
 <center>
   <img
@@ -132,11 +136,20 @@ podrás hacer uso de algunas herramientas para una búsqueda más rápida y efic
 Una vez ubicado y seleccionado el medidor a capturar, te aparecerá una ventana nueva; en ella
 podrás ver los datos del medidor y podrás registrar del mismo lo siguiente:
 
-- La lectura actual.
-- Escribir el medidor actual.
-- Seleccionar alguna anomalía si es que se presentó alguna.
-- Anotar alguna observación.
-- Añadir alguna fotografía de la condición actual.
+1. Dentro de **menú de captura** encontrara
+   - La lectura actual.
+   - Escribir el medidor actual.
+   - Anotar alguna observación.
+   - Seleccionar alguna **anomalía** si es que se presentó alguna.
+   - **Añadir alguna fotografía** de la condición actual.
+   - Boton para **guardar cambios**.
+2. Al seleccionar una **anomalia** encontrara
+   - Varias anomalias predefinidas, de las cuales podrá seleccionar la que se presentó en el medidor.
+   - Boton de busqueda rapida de alguna anomalia en especifico.
+3. Al seleccionar **añadir fotografía** encontrara dos opciones:
+   - tomar una fotografia
+   - seleccionar una fotografia de la galeria.
+4. Al **guardar cambios** se confirmará la captura del medidor.
 
 <div className="table-center-wrapper">
   <table className="table-no-border">
@@ -165,20 +178,20 @@ podrás ver los datos del medidor y podrás registrar del mismo lo siguiente:
     </tr>
     <tr>
       <td align="center">
-        <b> Menú de captura </b>
+        <b> 1. Menú de captura </b>
       </td>
       <td align="center">
-        <b> Seleccionar anomalía </b>
+        <b> 2. Seleccionar anomalía </b>
       </td>
       <td align="center">
-        <b> Agregar una fotografía </b>
+        <b> 3. Añadir fotografía </b>
       </td>
     </tr>
   </table>
 </div>
 
 Una vez escritas las especificaciones del medidor a capturar, además de añadir una imagen
-o anomalía si es requerida, el cambio de ese medidor se guardará y estará listo para
+o anomalía si es requerida, daremos clic en el boton de guardar cambios para confirmar la captura. El cambio de ese medidor se guardará y estará listo para
 enviarse; este se mostrará en el menú de un color amarillo y las que ya han sido enviadas
 se mostrarán de color naranja.
 
@@ -311,48 +324,164 @@ opciónes para capturar: [una en una](/docs/usuarios/inicio-usuarios#221---captu
     <tr>
       <td align="center" valign="top">
         <img
-          src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_capturar_todo.jpg"
-          alt="Configurar conexion validada"
-          width="260"
-        />
-      </td>
-      <td align="center" valign="top">
-        <img
           src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_capturar_uno.jpg"
           alt="Imagen conexion guardar"
           width="260"
         />
       </td>
+
+      <td align="center" valign="top">
+        <img
+          src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_capturar_todo.jpg"
+          alt="Configurar conexion validada"
+          width="260"
+        />
+      </td>
+
     </tr>
     <tr>
       <td align="center">
-        <b> Capturar todos </b>
-      </td>
-      <td align="center">
         <b> Capturar uno en uno</b>
       </td>
+      <td align="center">
+        <b> Capturar todos </b>
+      </td>
     </tr>
+
   </table>
 </div>
 
-#### 1.2.1 - Capturar una en una
+#### 2.2.1 - Capturar una en una
 
 Si tu decisión fue capturar una por una y ya seleccionaste una ruta en específico para capturar,
 lo siguiente que se mostrará serán todos los medidores ubicados en la ruta seleccionada; aquí
 podrás hacer uso de algunas herramientas para una búsqueda más rápida y eficaz.
 
-- **Búsqueda rápida**:Escribe alguno de los datos que se muestran, como dirección, cuenta,
-  medidor o de algún medidor en específico.
+1.  **Búsqueda rápida**:Escribe alguno de los datos que se muestran, como dirección, cuenta,
+    medidor o de algún medidor en específico.
 
-- **Localización de medidor y toma de agua**: En la parte inferior de la ruta del medidor se
-  encuentra un signo de un mapa; este nos proporciona la ruta exacta del medidor, además de la
-  ruta de la toma de agua.
+2.  **Busqueda especifica por numero de localización**: Escribe el numero de 16 digitos que
+    se encuentra en la parte inferior del medidor, este nos proporcionará el medidor exacto que
+    se desea consultar.
 
-- **Consultar búsqueda anterior**: Este botón, ubicado en la parte inferior derecha de la
-  pantalla, nos mostrará el último medidor al que el usuario consultó antes de salir de esta
-  ventana.
+3.  **Localización de medidor y toma de agua**: En la parte inferior de la ruta del medidor se
+    encuentra un signo de un mapa; este nos proporciona la ruta exacta del medidor, además de la
+    ruta de la toma de agua.
+
+4.  **Consultar búsqueda anterior**: Este botón, ubicado en la parte inferior derecha de la
+    pantalla, nos mostrará el último medidor al que el usuario consultó antes de salir de esta
+    ventana.
+
+<center>
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/validar_capturar_1a1.jpg"
+    alt="Configurar conexion validada"
+    width="220"
+  />
+</center>
+
+Una vez ubicado y seleccionado el medidor a capturar, te aparecerá una ventana nueva; en ella
+podrás ver los datos del medidor y podrás registrar del mismo lo siguiente:
+
+1. Dentro de **menú de captura** encontrara
+   - La lectura actual.
+   - Escribir el medidor actual.
+   - Anotar alguna observación.
+   - Seleccionar alguna **anomalía** si es que se presentó alguna.
+   - **Añadir alguna fotografía** de la condición actual.
+   - Boton para **guardar cambios**.
+2. Al seleccionar una **anomalia** encontrara
+   - Varias anomalias predefinidas, de las cuales podrá seleccionar la que se presentó en el medidor.
+   - Boton de busqueda rapida de alguna anomalia en especifico.
+3. Al seleccionar **añadir fotografía** encontrara dos opciones:
+   - tomar una fotografia
+   - seleccionar una fotografia de la galeria.
+4. Al **guardar cambios** se confirmará la captura del medidor.
+
+<div className="table-center-wrapper">
+  <table className="table-no-border">
+    <tr>
+      <td align="center" valign="top">
+        <img
+          src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_menu_1a1.jpg"
+          alt="Configurar conexion validada"
+          width="268"
+        />
+      </td>
+      <td align="center" valign="top">
+        <img
+          src="/img/arquos_opr/usuarios/dashboard-usuario/validar_capturar_anomalia.jpg"
+          alt="Imagen conexion guardar"
+          width="260"
+        />
+      </td>
+      <td align="center" valign="top">
+        <img
+          src="/img/arquos_opr/usuarios/dashboard-usuario/validar_capturar_fotografia.jpg"
+          alt="Imagen conexion guardar"
+          width="263"
+        />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b> 1. Menú de captura </b>
+      </td>
+      <td align="center">
+        <b> 2. Seleccionar anomalía </b>
+      </td>
+      <td align="center">
+        <b> 3. Añadir fotografía </b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+Una vez escritas las especificaciones del medidor a capturar, además de añadir una imagen
+o anomalía si es requerida, daremos clic en el boton de guardar cambios para confirmar la captura. El cambio de ese medidor se guardará y estará listo para
+enviarse; este se mostrará en el menú de un color amarillo y las que ya han sido enviadas
+se mostrarán de color naranja.
 
 ### 2.3 - Enviar ruta de validación
+
+Para poder capturar, es necesario iniciar sesión como
+[administrador](/docs/introduccion/Iniciar_sesion#admnistrador);
+Cuando tengas guardado por lo menos un medidor de alguna ruta de
+validación, podrás enviarlo al servidor; al igual que en la opción de
+capturar, te aparecerán todas las rutas; es tu decisión el
+capturar todas o ir una por una. En cualquiera de los casos
+aparecerá un mensaje preguntando si ¿deseas continuar?; si
+estás seguro de que son correctas las capturas de las rutas,
+presionarás continuar para proceder a enviar los datos.
+
+<div className="table-center-wrapper">
+  <table className="table-no-border">
+    <tr>
+      <td align="center" valign="top">
+        <img
+          src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_enviar_datos_1.jpg"
+          alt="Configurar conexion validada"
+          width="269"
+        />
+      </td>
+      <td align="center" valign="top">
+        <img
+          src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_enviar_datos_2.jpg"
+          alt="Imagen conexion guardar"
+          width="267"
+        />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b> Seleccione una ruta </b>
+      </td>
+      <td align="center">
+        <b> Enviar los datos </b>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
