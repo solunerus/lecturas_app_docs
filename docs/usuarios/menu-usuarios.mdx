@@ -1,0 +1,576 @@
+---
+sidebar_position: 1
+---
+
+# Menú
+
+Después de ingresar la **URL API**, accederás al dashboard de usuarios. Desde aquí podrás
+trabajar con los tres apartados principales de la aplicación: [lecturas](/docs/usuarios/menu-usuarios#1---lecturas),
+[validación](/docs/usuarios/menu-usuarios#2---validación) y
+[órdenes](/docs/usuarios/menu-usuarios#3---órdenes).
+
+## **1 - Lecturas**
+
+Desde este apartado podrás [bajar](/docs/usuarios/menu-usuarios#11---bajar-rutas), [capturar](/docs/usuarios/menu-usuarios#12---capturar-lecturas) y
+[enviar](/docs/usuarios/menu-usuarios#13---enviar-ruta-de-lecturas) la ruta de las lecturas de los medidores, agilizando el trabajo en campo.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/lecturas_home.jpg"
+    alt="Menú principal del apartado de lecturas"
+  />
+</div>
+
+### 1.1 - Bajar rutas
+
+Puedes descargar las rutas registradas para la toma de lectura; estas están organizadas de forma
+que sea fácil localizar una ruta específica. La aplicación te pedirá elegir **un subsistema**,
+después un **sector** dentro de ese subsistema y, por último, la **ruta** que deseas descargar.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/rutas_1.jpg"
+      alt="Selección de subsistema"
+    />
+    <figcaption>Elegir subsistema</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/rutas_2.jpg"
+      alt="Selección de sector"
+    />
+    <figcaption>Elegir sector</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/rutas_3.jpg"
+      alt="Selección de ruta"
+    />
+    <figcaption>Elegir ruta</figcaption>
+  </figure>
+</div>
+
+### 1.2 - Capturar lecturas
+
+Para capturar lecturas es necesario iniciar sesión como
+[empleado](/docs/introduccion/Iniciar_sesion#Empleado). Al elegir esta opción se abrirá una
+pantalla donde deberás seleccionar **una ruta**, previamente descargada desde
+[Bajar rutas](/docs/usuarios/menu-usuarios#11---bajar-rutas). A partir de ahí tienes dos formas
+de capturar: [medidor por medidor](/docs/usuarios/menu-usuarios#121---capturar-una-en-una) o
+[todos a la vez](/docs/usuarios/menu-usuarios#122---capturar-todas).
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/capturar_lecturas_uno.jpg"
+      alt="Captura de lecturas medidor por medidor"
+    />
+    <figcaption>Capturar una en una</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/capturar_lecturas_todos.jpg"
+      alt="Captura de todas las lecturas de la ruta"
+    />
+    <figcaption>Capturar todos</figcaption>
+  </figure>
+</div>
+
+#### 1.2.1 - Capturar una en una
+
+Al elegir capturar una por una y seleccionar la ruta correspondiente, verás la lista de todos
+los medidores que pertenecen a esa ruta. Para agilizar la búsqueda del medidor que necesitas,
+cuentas con las siguientes herramientas:
+
+1.  **Búsqueda rápida**: escribe cualquiera de los datos visibles, como dirección, número de
+    cuenta o número de medidor.
+
+2.  **Búsqueda específica por número de localización**: escribe el número de 16 dígitos que se
+    encuentra en la parte inferior del medidor para localizar exactamente el que necesitas
+    consultar.
+
+3.  **Localización de medidor y toma de agua**: en la parte inferior de cada fila encontrarás un
+    ícono de mapa que muestra la ubicación exacta del medidor, así como la de su toma de agua.
+
+4.  **Consultar búsqueda anterior**: este botón, ubicado en la parte inferior derecha de la
+    pantalla, te muestra el último medidor que consultaste antes de salir de esta ventana.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/lecturas_capturar_1a1.jpg"
+    alt="Lista de medidores de la ruta con herramientas de búsqueda"
+  />
+</div>
+
+Una vez que localices y selecciones el medidor a capturar, se abrirá una nueva ventana con los
+datos del medidor, donde podrás registrar lo siguiente:
+
+1. Dentro del **menú de captura** encontrarás:
+   - La lectura actual.
+   - El campo para escribir la lectura del medidor.
+   - Un espacio para anotar alguna observación.
+   - La opción de seleccionar una **anomalía**, en caso de haberse presentado.
+   - La opción de **añadir una fotografía** de la condición actual del medidor.
+   - El botón para **guardar cambios**.
+2. Al seleccionar **anomalía** encontrarás:
+   - Un listado de anomalías predefinidas, del cual podrás elegir la que corresponda.
+   - Un buscador rápido para localizar una anomalía específica.
+3. Al seleccionar **añadir fotografía** encontrarás dos opciones:
+   - Tomar una fotografía en el momento.
+   - Elegir una fotografía existente desde la galería del dispositivo.
+4. Al presionar **guardar cambios** se confirma la captura de ese medidor.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/captura_lectura_final.jpg"
+      alt="Menú de captura de lectura"
+    />
+    <figcaption>1. Menú de captura</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/capturar_anomalia.jpg"
+      alt="Selección de anomalía del medidor"
+    />
+    <figcaption>2. Seleccionar anomalía</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/capturar_añadir_imagen.jpg"
+      alt="Añadir fotografía al registro del medidor"
+    />
+    <figcaption>3. Añadir fotografía</figcaption>
+  </figure>
+</div>
+
+Una vez capturados los datos del medidor —y agregada una fotografía o anomalía si era
+necesario—, presiona el botón de guardar cambios para confirmar la captura. El medidor quedará
+guardado y listo para enviarse: en el listado se mostrará en color **amarillo** mientras esté
+pendiente de envío, y en color **naranja** una vez que ya haya sido enviado.
+
+#### 1.2.2 - Capturar todas
+
+Si eliges <span className="underline-custom">capturar todas</span>, el procedimiento es el mismo
+que en [capturar una en una](/docs/usuarios/menu-usuarios#121---capturar-una-en-una), con la
+diferencia de que aquí no se registra un solo medidor, sino todos los medidores de la ruta
+seleccionada. Esta opción es ideal cuando ningún medidor de la ruta presenta anomalías.
+
+### 1.3 - Enviar ruta de lecturas
+
+Cuando tengas guardado al menos un medidor de alguna ruta, podrás enviarlo al servidor. Al igual
+que en la captura, verás el listado de rutas y podrás elegir enviarlas todas de una vez o
+seleccionarlas una por una. En ambos casos aparecerá un mensaje de confirmación preguntando si
+deseas continuar; si las capturas son correctas, presiona **continuar** para enviar los datos.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/enviar_ruta_menu.jpg"
+      alt="Listado de rutas para enviar"
+    />
+    <figcaption>Seleccione una ruta</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/enviar_ruta_form.jpg"
+      alt="Confirmación de envío de datos"
+    />
+    <figcaption>Enviar los datos</figcaption>
+  </figure>
+</div>
+
+:::note[IMPORTANTE]
+
+El envío de datos al servidor puede tardar algunos minutos, dependiendo de la velocidad de tu
+conexión a internet.
+
+:::
+
+---
+
+## **2 - Validación**
+
+Si identificas alguna discrepancia en las lecturas, puedes modificarlas o recapturarlas desde
+**Validación**. Este apartado cuenta con las mismas opciones que Lecturas:
+[bajar rutas](/docs/usuarios/menu-usuarios#21---bajar-rutas),
+[capturar validación](/docs/usuarios/menu-usuarios#22---capturar-validación)
+y [enviar ruta de validación](/docs/usuarios/menu-usuarios#23---enviar-ruta-de-validación),
+lo que facilita hacer el cambio cuando sea necesario.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_home.jpg"
+    alt="Menú principal del apartado de validación"
+  />
+</div>
+
+### 2.1 - Bajar rutas
+
+Puedes descargar las rutas registradas para la toma de lectura; estas están organizadas de forma
+que sea fácil localizar una ruta específica. La aplicación te pedirá elegir **un subsistema**,
+después un **sector** dentro de ese subsistema y, por último, la **ruta** que deseas descargar.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/bajar_validacion_1.jpg"
+      alt="Selección de subsistema para validación"
+    />
+    <figcaption>Elegir subsistema</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/bajar_validacion_2.png"
+      alt="Selección de sector para validación"
+    />
+    <figcaption>Elegir sector</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/bajar_validacion_3.jpg"
+      alt="Selección de ruta para validación"
+    />
+    <figcaption>Elegir ruta</figcaption>
+  </figure>
+</div>
+
+### 2.2 - Capturar validación
+
+Para capturar en Validación es necesario
+[iniciar sesión como empleado](/docs/introduccion/Iniciar_sesion#Empleado). Al igual que en
+[Lecturas](/docs/usuarios/menu-usuarios#1---lecturas), deberás seleccionar **una ruta**,
+previamente descargada desde [Bajar rutas](/docs/usuarios/menu-usuarios#21---bajar-rutas).
+A partir de ahí tienes dos formas de capturar:
+[medidor por medidor](/docs/usuarios/menu-usuarios#221---capturar-una-en-una) o
+[todos a la vez](/docs/usuarios/menu-usuarios#222---capturar-todas).
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_capturar_uno.jpg"
+      alt="Captura de validación medidor por medidor"
+    />
+    <figcaption>Capturar uno en uno</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_capturar_todo.jpg"
+      alt="Captura de validación de todos los medidores"
+    />
+    <figcaption>Capturar todos</figcaption>
+  </figure>
+</div>
+
+#### 2.2.1 - Capturar una en una
+
+Al elegir capturar una por una y seleccionar la ruta correspondiente, verás la lista de todos
+los medidores que pertenecen a esa ruta. Para agilizar la búsqueda del medidor que necesitas,
+cuentas con las siguientes herramientas:
+
+1.  **Búsqueda rápida**: escribe cualquiera de los datos visibles, como dirección, número de
+    cuenta o número de medidor.
+
+2.  **Búsqueda específica por número de localización**: escribe el número de 16 dígitos que se
+    encuentra en la parte inferior del medidor para localizar exactamente el que necesitas
+    consultar.
+
+3.  **Localización de medidor y toma de agua**: en la parte inferior de cada fila encontrarás un
+    ícono de mapa que muestra la ubicación exacta del medidor, así como la de su toma de agua.
+
+4.  **Consultar búsqueda anterior**: este botón, ubicado en la parte inferior derecha de la
+    pantalla, te muestra el último medidor que consultaste antes de salir de esta ventana.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/validar_capturar_1a1.jpg"
+    alt="Lista de medidores de la ruta con herramientas de búsqueda"
+  />
+</div>
+
+Una vez que localices y selecciones el medidor a capturar, se abrirá una nueva ventana con los
+datos del medidor, donde podrás registrar lo siguiente:
+
+1. Dentro del **menú de captura** encontrarás:
+   - La lectura actual.
+   - El campo para escribir la lectura del medidor.
+   - Un espacio para anotar alguna observación.
+   - La opción de seleccionar una **anomalía**, en caso de haberse presentado.
+   - La opción de **añadir una fotografía** de la condición actual del medidor.
+   - El botón para **guardar cambios**.
+2. Al seleccionar **anomalía** encontrarás:
+   - Un listado de anomalías predefinidas, del cual podrás elegir la que corresponda.
+   - Un buscador rápido para localizar una anomalía específica.
+3. Al seleccionar **añadir fotografía** encontrarás dos opciones:
+   - Tomar una fotografía en el momento.
+   - Elegir una fotografía existente desde la galería del dispositivo.
+4. Al presionar **guardar cambios** se confirma la captura de ese medidor.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_menu_1a1.jpg"
+      alt="Menú de captura de validación"
+    />
+    <figcaption>1. Menú de captura</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/validar_capturar_anomalia.jpg"
+      alt="Selección de anomalía en validación"
+    />
+    <figcaption>2. Seleccionar anomalía</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/validar_capturar_fotografia.jpg"
+      alt="Añadir fotografía al registro de validación"
+    />
+    <figcaption>3. Añadir fotografía</figcaption>
+  </figure>
+</div>
+
+Una vez capturados los datos del medidor y agregada una fotografía o anomalía si era
+necesario, presiona el botón de guardar cambios para confirmar la captura. El medidor quedará
+guardado y listo para enviarse: en el listado se mostrará en color **amarillo** mientras esté
+pendiente de envío, y en color **naranja** una vez que ya haya sido enviado.
+
+### 2.3 - Enviar ruta de validación
+
+Para enviar una ruta de validación es necesario iniciar sesión como
+[administrador](/docs/introduccion/Iniciar_sesion#admnistrador). Cuando tengas guardado al
+menos un medidor de alguna ruta de validación, podrás enviarlo al servidor. Al igual que en la
+captura, verás el listado de rutas y podrás elegir enviarlas todas de una vez o seleccionarlas
+una por una. En ambos casos aparecerá un mensaje de confirmación preguntando si deseas
+continuar; si las capturas son correctas, presiona **continuar** para enviar los datos.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_enviar_datos_1.jpg"
+      alt="Listado de rutas de validación para enviar"
+    />
+    <figcaption>Seleccione una ruta</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/validacion_enviar_datos_2.jpg"
+      alt="Confirmación de envío de datos de validación"
+    />
+    <figcaption>Enviar los datos</figcaption>
+  </figure>
+</div>
+
+---
+
+## **3 - Órdenes**
+
+En esta sección podrás [bajar](/docs/usuarios/menu-usuarios#31---bajar-órdenes-de-trabajo),
+[capturar](/docs/usuarios/menu-usuarios#32---capturar-órdenes) y
+[enviar](/docs/usuarios/menu-usuarios#33---enviar-órdenes-capturadas)
+órdenes de trabajo, ya sea de mantenimiento o de solución a alguna falla reportada en el
+medidor de un cliente, facilitando así el registro y control de estas.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_menu.png"
+    alt="Menú principal del apartado de órdenes"
+  />
+</div>
+
+### 3.1 - Bajar órdenes de trabajo
+
+Para descargar las órdenes de trabajo, primero deberás elegir una **población**, ya sea una en
+específico o todas las disponibles. Al seleccionarla, aparecerán las **colonias** que pertenecen
+a esa población, donde nuevamente podrás elegir descargar una colonia en particular o todas a la
+vez.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_bajar_1.jpg"
+      alt="Selección de población"
+    />
+    <figcaption>Elegir población</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_bajar_2.jpg"
+      alt="Selección de colonia"
+    />
+    <figcaption>Elegir colonia</figcaption>
+  </figure>
+</div>
+
+### 3.2 - Capturar órdenes
+
+Para capturar órdenes, primero deberás seleccionar la **población** donde previamente
+descargaste información, ya sea una en específico o todas. Después, se mostrarán las
+**colonias** descargadas dentro de esa población, donde podrás elegir una en particular o
+todas.
+
+Al seleccionar una o varias colonias, se mostrará el listado de órdenes de trabajo
+correspondiente. Cada orden muestra información resumida para identificarla fácilmente, por
+ejemplo:
+
+- **Problema:** Fuga de A.P. de toma en tierra
+- **Dirección y colonia**
+- **No. de cuenta**
+- **Medidor**
+
+Aparte de ver la lista de todos los medidores que pertenecen a esa ruta. Cuentas con
+las siguientes herramientas para agilizar la búsqueda del medidor que necesitas:
+
+1.  **Búsqueda rápida**: escribe cualquiera de los datos visibles, como dirección, número de
+    cuenta o número de medidor.
+
+2.  **Localización de medidor y toma de agua**: en la parte inferior de cada fila encontrarás un
+    ícono de mapa que muestra la ubicación exacta del medidor, así como la de su toma de agua.
+
+3.  **Consultar búsqueda anterior**: este botón, ubicado en la parte inferior derecha de la
+    pantalla, te muestra el último medidor que consultaste antes de salir de esta ventana.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_capturar_1.jpg"
+    alt="Listado de órdenes de trabajo de la colonia seleccionada"
+  />
+</div>
+
+:::note[IMPORTANTE]
+
+A diferencia de Lecturas y Validación, aquí **no existe la opción de capturar todas las
+órdenes a la vez**, ya que cada una corresponde a un trabajo distinto. Deberás seleccionar y
+capturar las órdenes de manera individual.
+
+:::
+
+Al seleccionar una orden se abrirá el formulario de captura, organizado en las siguientes
+secciones:
+
+1. **Ejecución**
+   - **Interruptor de orden no ejecutada**: el usuario selecciona sí/no para indicar si la orden
+     no pudo llevarse cabo.
+   - **Causa de si/no ejecución**: cambia dependiendo si la orden no fue ejecutada o no; incluye
+     varias opciones predefinidas.
+   - **Agregar orden complementaria**: abre un formulario para registrar un trabajo adicional
+     relacionado con la orden. Deberás seleccionar el tipo de trabajo a realizar —instalación de
+     toma de A.P., invitación de pago, corte de banqueta, reinstalación por limitaciones, cambio
+     de medidor, inspección, entre otras— y agregar una breve descripción.
+   - **Observación al ejecutar**: campo opcional para anotar cualquier detalle relevante sobre
+     la ejecución de la orden.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_si_ejecutar.png"
+      alt="Selección de población"
+    />
+    <figcaption>Si ejecutar</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_no_ejecutar.png"
+      alt="Selección de colonia"
+    />
+    <figcaption>No ejecutar</figcaption>
+  </figure>
+</div>
+
+2. **Medidor**
+
+   <div className="doc-img-single">
+     <img
+       src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_medidor_botones.png"
+       alt="Listado de órdenes de trabajo de la colonia seleccionada"
+     />
+   </div>
+
+En esta sección podrás registrar la información del medidor asociado a la
+orden:
+
+- **Medidor encontrado**: abre un formulario donde deberás capturar el medidor, anotar la lectura, seleccionar la marca del medidor, elegir el modelo del medidor, indicar el diámetro del medidor y, en caso de presentarse, seleccionar una anomalía.
+- **Medidor instalado**: solicita la misma información que _Medidor encontrado_.
+- **Medidor retirado**: solicita la misma información que _Medidor encontrado_.
+- **Materiales utilizados**: mediante el botón **Añadir**, podrás registrar los materiales empleados para cumplir la orden, indicando la cantidad y seleccionando el material del catálogo disponible (por ejemplo, pintura blanca, abrazadera fofo 2x 1/2, codo galvanizado 2x90, entre otros).
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_medidor_formulario.jpg"
+      alt="Formulario de medidor encontrado"
+    />
+    <figcaption>Medidor encontrado</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_medidor_agregar.jpg"
+      alt="Registro de materiales utilizados"
+    />
+    <figcaption>Materiales utilizados</figcaption>
+  </figure>
+</div>
+
+3. **Información de la orden**
+
+   En esta sección podrás consultar los datos generales de la orden, además de actualizar el
+   nombre del propietario en caso de haber cambiado:
+   - Cambio de nombre del propietario.
+   - Teléfono.
+   - Fecha generada.
+   - Fecha programada.
+   - Medidor.
+   - Cuenta.
+   - Nombre.
+   - Localización.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_informacion.png"
+    alt="Información general de la orden"
+  />
+</div>
+
+4. **Agregar imagen**
+
+   Podrás documentar la orden con una fotografía, ya sea:
+   - Tomando una fotografía en el momento.
+   - Eligiendo una fotografía existente desde la galería del dispositivo.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_captura_imagen.jpg"
+    alt="Información general de la orden"
+  />
+</div>
+
+5. **Guardar**
+
+   Al presionar el botón de guardar se confirma la captura de toda la información registrada en
+   la orden.
+
+### 3.3 - Enviar órdenes capturadas
+
+Por último, podrás enviar al servidor las órdenes que ya hayas capturado. Primero deberás
+elegir una **población**; al hacerlo, se mostrará el listado correspondiente, donde podrás
+elegir enviar todas las órdenes capturadas o solo una en específico. Al seleccionar una opción,
+el envío comenzará de inmediato. Sabrás que se completó con éxito cuando aparezca un mensaje en
+**verde** confirmando el envío.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_enviar_1.jpg"
+      alt="Selección de población para enviar órdenes"
+    />
+    <figcaption>Seleccione una población</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_enviar_2.jpg"
+      alt="Confirmación de envío exitoso de órdenes"
+    />
+    <figcaption>Seleccione la colonia a enviar</figcaption>
+  </figure>
+</div>
