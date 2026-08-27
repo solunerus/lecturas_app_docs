@@ -4,55 +4,68 @@ sidebar_position: 2
 
 # Iniciar sesión
 
-Iniciar sesión te habilita las funciones principales y necesarias
-dentro de la aplicacion **Arquos OPR**, puedes iniciar sesión como
-`Empleado` o `Administrador`.
+Iniciar sesión habilita las funciones principales de **Arquos OPR**, como la captura y el envío
+de lecturas, validaciones y órdenes de trabajo. La aplicación cuenta con dos tipos de acceso,
+según el rol del usuario: `Empleado` y `Administrador`.
 
 ## Empleado
 
-Para iniciar sesión como empleado necesitaras estar registrado
-y dado de alta, una vez hecho esto lo siguiente será escoger
-la opción **Iniciar sesión - Empleado** que aparece en el menú
-lateral del lado izquierdo.
+Para iniciar sesión como empleado, es necesario estar previamente registrado y dado de alta en
+el sistema. Una vez cumplido este requisito, selecciona la opción **Iniciar sesión - Empleado**
+en el menú lateral izquierdo.
 
-<center>
+<div className="doc-img-single">
   <img
     src="/img/arquos_opr/introduccion/iniciar_sesion/login_inicio.jpg"
-    alt="Iniciar sesion principal"
-    width="280"
+    alt="Opción de iniciar sesión como empleado en el menú lateral"
   />
-</center>
+</div>
 
-Dentro de esta opción buscaremos nuestro usuario, una vez encontrado, presionaremos sobre el mismo
-e ingresaremos la contraseña.
+A continuación, busca tu usuario dentro del listado; al encontrarlo, selecciónalo e ingresa tu
+contraseña para completar el inicio de sesión.
 
-<div className="table-center-wrapper">
-  <table className="table-no-border">
-    <tr>
-      <td align="center" valign="top" className="img-spacer-right">
-        <img
-          src="/img/arquos_opr/introduccion/iniciar_sesion/login_usuarios.jpg"
-          alt="Iniciar sesion usuarios"
-          width="280"
-        />
-      </td>
-      <td align="center" valign="top" className="img-spacer-left">
-        <img
-          src="/img/arquos_opr/introduccion/iniciar_sesion/login_contraseña.jpg"
-          alt="Iniciar sesion contraseña"
-          width="280"
-        />
-      </td>
-    </tr>
-    <tr>
-      <td align="center" className="img-spacer-right">
-        <b> Buscar usuario </b>
-      </td>
-      <td align="center" className="img-spacer-left">
-        <b> Ingresar contraseña </b>
-      </td>
-    </tr>
-  </table>
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/introduccion/iniciar_sesion/login_usuarios.jpg"
+      alt="Búsqueda del usuario empleado en el listado"
+    />
+    <figcaption>Buscar usuario</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/introduccion/iniciar_sesion/login_contraseña.jpg"
+      alt="Campo para ingresar la contraseña del empleado"
+    />
+    <figcaption>Ingresar contraseña</figcaption>
+  </figure>
 </div>
 
 ## Administrador
+
+Para iniciar sesión como administrador, selecciona la opción **Iniciar sesión - ARQUOS** en el
+menú lateral izquierdo. A diferencia del inicio de sesión como empleado, aquí **no es necesario
+buscar ningún usuario en un listado**: el acceso de administrador se hace directamente con tus
+credenciales.
+
+Al seleccionar esta opción, se mostrará una ventana solicitando dos datos:
+
+1. **Usuario ARQUOS**: tu nombre de usuario de administrador.
+2. **Contraseña**: tu contraseña de acceso.
+
+Una vez capturados ambos campos, presiona **Iniciar** para acceder a la aplicación con permisos
+de administrador. Si deseas cancelar el proceso, presiona **Cancelar**.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/introduccion/iniciar_sesion/iniciar_sesion_arquos.png"
+    alt="Ventana de inicio de sesión como administrador ARQUOS"
+  />
+</div>
+
+:::note[IMPORTANTE]
+
+Algunas funciones de la aplicación, como [enviar la ruta de validación](/docs/usuarios/inicio-usuarios#23---enviar-ruta-de-validación),
+requieren haber iniciado sesión como administrador.
+
+:::

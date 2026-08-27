@@ -2,6 +2,9 @@
   "label": "Usuarios",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "title": "Usuarios en Arquos OPR",
+    "description": "Una vez configurada la conexión e iniciada la sesión, aquí encontrarás el menú principal de usuarios y cómo trabajar con sus tres apartados: Lecturas, Validación y Órdenes, incluyendo cómo bajar rutas, capturar información y enviarla al servidor.",
+    "keywords": ["usuarios", "lecturas", "validación", "órdenes", "menú principal", "arquos opr"]
   }
 }

@@ -17,7 +17,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
   --ifm-color-primary: #738df5;
   --ifm-color-primary-dark: #6780e0;
@@ -28,8 +27,6 @@
   --ifm-color-primary-lightest: #a3b9fc;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
-
-/* ===== Tablas de imágenes (centradas, sin bordes) ===== */
 
 .table-center-wrapper {
   display: flex;
@@ -48,13 +45,11 @@
   border-collapse: collapse;
 }
 
-/* Espaciado simétrico automático entre columnas (funciona con 2, 3 o más imágenes) */
 .table-no-border td {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* Quita el espacio sobrante en los extremos de la fila */
 .table-no-border tr td:first-child {
   padding-left: 0;
 }
@@ -69,12 +64,6 @@
   text-underline-offset: 3px;
 }
 
-/* ===== Imágenes de documentación (tamaño medio y responsivas) =====
-   Se usan en lugar de "width" fijo en px para que las capturas se vean
-   siempre del mismo tamaño relativo entre sí, sin importar la resolución
-   o el nivel de zoom de la pantalla del usuario. */
-
-/* Imagen única, centrada (por ejemplo, la vista general de un menú) */
 .doc-img-single {
   display: flex;
   justify-content: center;
@@ -89,10 +78,6 @@
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
 }
 
-/* Galería de imágenes en fila (2 o 3 capturas explicando un mismo paso).
-   Al usar flex-wrap, si la pantalla es angosta o muy vertical las imágenes
-   pasan a la siguiente línea EN LUGAR de encogerse, así todas conservan
-   el mismo tamaño entre sí. */
 .img-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -124,9 +109,6 @@
   font-weight: 600;
 }
 
-/* ===== Separación visual entre secciones (2.1, 2.2, 2.3, etc.) =====
-   Una línea sutil y espacio extra antes de cada subtítulo para que se
-   note claramente el cambio de un apartado al siguiente. */
 article h3 {
   margin-top: 3.5rem;
   padding-top: 1.75rem;

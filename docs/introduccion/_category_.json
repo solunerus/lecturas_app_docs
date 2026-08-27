@@ -1,8 +1,11 @@
 {
   "label": "Autenticación",
   "position": 2,
+  "className": "sidebar-item-autenticacion",
   "link": {
     "type": "generated-index",
-    "description": "Aprenderás cómo funciona la autenticación en Arquos OPR"
+    "title": "Autenticación en Arquos OPR",
+    "description": "Antes de comenzar a trabajar con lecturas, validaciones u órdenes, es necesario configurar la conexión con el servidor de tu organismo e iniciar sesión. Aquí encontrarás cómo hacerlo, ya sea como empleado o como administrador.",
+    "keywords": ["autenticación", "login", "conexión", "servidor", "arquos opr"]
   }
 }
