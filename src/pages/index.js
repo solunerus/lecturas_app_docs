@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Arquos OPR tutorial - 15min ⏱️
+            Aprende mas de Arquos OPR con esta guia 
           </Link>
         </div>
       </div>

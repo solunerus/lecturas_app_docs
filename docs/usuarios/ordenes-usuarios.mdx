@@ -1,0 +1,214 @@
+---
+sidebar_position: 3
+---
+
+# Órdenes
+
+En esta sección podrás [bajar](/docs/usuarios/ordenes-usuarios#bajar-órdenes-de-trabajo),
+[capturar](/docs/usuarios/ordenes-usuarios#capturar-órdenes) y
+[enviar](/docs/usuarios/ordenes-usuarios#enviar-órdenes-capturadas)
+órdenes de trabajo, ya sea de mantenimiento o de solución a alguna falla reportada en el
+medidor de un cliente, facilitando así el registro y control de estas.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_menu.png"
+    alt="Menú principal del apartado de órdenes"
+  />
+</div>
+
+## Bajar órdenes de trabajo
+
+Para descargar las órdenes de trabajo, primero deberás elegir una **población**, ya sea una en
+específico o todas las disponibles. Al seleccionarla, aparecerán las **colonias** que pertenecen
+a esa población, donde nuevamente podrás elegir descargar una colonia en particular o todas a la
+vez.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_bajar_1.jpg"
+      alt="Selección de población"
+    />
+    <figcaption>Elegir población</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_bajar_2.jpg"
+      alt="Selección de colonia"
+    />
+    <figcaption>Elegir colonia</figcaption>
+  </figure>
+</div>
+
+## Capturar órdenes
+
+Para capturar órdenes, primero deberás seleccionar la **población** donde previamente
+descargaste información, ya sea una en específico o todas. Después, se mostrarán las
+**colonias** descargadas dentro de esa población, donde podrás elegir una en particular o
+todas.
+
+Al seleccionar una o varias colonias, se mostrará el listado de órdenes de trabajo
+correspondiente. Cada orden muestra información resumida para identificarla fácilmente, por
+ejemplo:
+
+- **Problema:** Fuga de A.P. de toma en tierra
+- **Dirección y colonia**
+- **No. de cuenta**
+- **Medidor**
+
+Aparte de ver la lista de todos los medidores que pertenecen a esa ruta. Cuentas con
+las siguientes herramientas para agilizar la búsqueda del medidor que necesitas:
+
+1.  **Búsqueda rápida**: escribe cualquiera de los datos visibles, como dirección, número de
+    cuenta o número de medidor.
+
+2.  **Localización de medidor y toma de agua**: en la parte inferior de cada fila encontrarás un
+    ícono de mapa que muestra la ubicación exacta del medidor, así como la de su toma de agua.
+
+3.  **Consultar búsqueda anterior**: este botón, ubicado en la parte inferior derecha de la
+    pantalla, te muestra el último medidor que consultaste antes de salir de esta ventana.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_capturar_1.jpg"
+    alt="Listado de órdenes de trabajo de la colonia seleccionada"
+  />
+</div>
+
+:::note[IMPORTANTE]
+
+A diferencia de Lecturas y Validación, aquí **no existe la opción de capturar todas las
+órdenes a la vez**, ya que cada una corresponde a un trabajo distinto. Deberás seleccionar y
+capturar las órdenes de manera individual.
+
+:::
+
+Al seleccionar una orden se abrirá el formulario de captura, organizado en las siguientes
+secciones:
+
+1. **Ejecución**
+   - **Interruptor de orden no ejecutada**: el usuario selecciona sí/no para indicar si la orden
+     no pudo llevarse cabo.
+   - **Causa de si/no ejecución**: cambia dependiendo si la orden no fue ejecutada o no; incluye
+     varias opciones predefinidas.
+   - **Agregar orden complementaria**: abre un formulario para registrar un trabajo adicional
+     relacionado con la orden. Deberás seleccionar el tipo de trabajo a realizar —instalación de
+     toma de A.P., invitación de pago, corte de banqueta, reinstalación por limitaciones, cambio
+     de medidor, inspección, entre otras— y agregar una breve descripción.
+   - **Observación al ejecutar**: campo opcional para anotar cualquier detalle relevante sobre
+     la ejecución de la orden.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_si_ejecutar.png"
+      alt="Selección de población"
+    />
+    <figcaption>Si ejecutar</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_no_ejecutar.png"
+      alt="Selección de colonia"
+    />
+    <figcaption>No ejecutar</figcaption>
+  </figure>
+</div>
+
+2. **Medidor**
+
+   <div className="doc-img-single">
+     <img
+       src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_medidor_botones.png"
+       alt="Listado de órdenes de trabajo de la colonia seleccionada"
+     />
+   </div>
+
+En esta sección podrás registrar la información del medidor asociado a la
+orden:
+
+- **Medidor encontrado**: abre un formulario donde deberás capturar el medidor, anotar la lectura, seleccionar la marca del medidor, elegir el modelo del medidor, indicar el diámetro del medidor y, en caso de presentarse, seleccionar una anomalía.
+- **Medidor instalado**: solicita la misma información que _Medidor encontrado_.
+- **Medidor retirado**: solicita la misma información que _Medidor encontrado_.
+- **Materiales utilizados**: mediante el botón **Añadir**, podrás registrar los materiales empleados para cumplir la orden, indicando la cantidad y seleccionando el material del catálogo disponible (por ejemplo, pintura blanca, abrazadera fofo 2x 1/2, codo galvanizado 2x90, entre otros).
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_medidor_formulario.jpg"
+      alt="Formulario de medidor encontrado"
+    />
+    <figcaption>Medidor encontrado</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_medidor_agregar.jpg"
+      alt="Registro de materiales utilizados"
+    />
+    <figcaption>Materiales utilizados</figcaption>
+  </figure>
+</div>
+
+3. **Información de la orden**
+
+   En esta sección podrás consultar los datos generales de la orden, además de actualizar el
+   nombre del propietario en caso de haber cambiado:
+   - Cambio de nombre del propietario.
+   - Teléfono.
+   - Fecha generada.
+   - Fecha programada.
+   - Medidor.
+   - Cuenta.
+   - Nombre.
+   - Localización.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_informacion.png"
+    alt="Información general de la orden"
+  />
+</div>
+
+4. **Agregar imagen**
+
+   Podrás documentar la orden con una fotografía, ya sea:
+   - Tomando una fotografía en el momento.
+   - Eligiendo una fotografía existente desde la galería del dispositivo.
+
+<div className="doc-img-single">
+  <img
+    src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_captura_imagen.jpg"
+    alt="Información general de la orden"
+  />
+</div>
+
+5. **Guardar**
+
+   Al presionar el botón de guardar se confirma la captura de toda la información registrada en
+   la orden.
+
+## Enviar órdenes capturadas
+
+Por último, podrás enviar al servidor las órdenes que ya hayas capturado. Primero deberás
+elegir una **población**; al hacerlo, se mostrará el listado correspondiente, donde podrás
+elegir enviar todas las órdenes capturadas o solo una en específico. Al seleccionar una opción,
+el envío comenzará de inmediato. Sabrás que se completó con éxito cuando aparezca un mensaje en
+**verde** confirmando el envío.
+
+<div className="img-gallery">
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_enviar_1.jpg"
+      alt="Selección de población para enviar órdenes"
+    />
+    <figcaption>Seleccione una población</figcaption>
+  </figure>
+  <figure>
+    <img
+      src="/img/arquos_opr/usuarios/dashboard-usuario/ordenes_enviar_2.jpg"
+      alt="Confirmación de envío exitoso de órdenes"
+    />
+    <figcaption>Seleccione la colonia a enviar</figcaption>
+  </figure>
+</div>
