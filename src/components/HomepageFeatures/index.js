@@ -1,22 +1,22 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Fácil de usar en empresas de todos los tamaños',
+    title: 'Fácil de usar',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Arquos OPR es una plataforma de gestión de operaciones de lectura y validación de medidores, 
-        diseñada para empresas de todos los tamaños. Con una interfaz intuitiva y herramientas potentes, 
+        Arquos OPR es una plataforma de gestión de operaciones de lectura y validación de medidores. Con ayuda de una interfaz intuitiva y herramientas potentes, 
         permite a los usuarios gestionar rutas, capturar lecturas y validar datos de manera eficiente.
       </>
     ),
   },
   {
     title: 'Focalizado en la gestión de lecturas y validación',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    image: '/img/imagen_arquos_medio.webp',
     description: (
       <>
         Arquos OPR se centra en la gestión de lecturas y validación de medidores. Los usuarios pueden
@@ -36,11 +36,16 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, image, title, description}) {
+  const imageUrl = useBaseUrl(image ?? '');
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {image ? (
+          <img className={styles.featureSvg} src={imageUrl} alt={title} />
+        ) : (
+          <Svg className={styles.featureSvg} role="img" />
+        )}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
