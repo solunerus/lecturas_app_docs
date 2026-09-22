@@ -3,7 +3,7 @@
 ## HOME
 
 - [x] Cambiar las redes sociales, que sean de Nerus
-- [ ] Imagenes que tengan que ver, que coincidan y que no pierda la escencia de los dema docs
+- [x] Imagenes que tengan que ver, que coincidan y que no pierda la escencia de los dema docs
 - [x] Descripción de las imagenes, darles un sentido a lo que veran en la documentacion
 - [x] En la parte inferior añadir un "Más" y añadir el link del sitio web de nerus
 
@@ -74,22 +74,22 @@ revisa si esta parte de usuarios se puede modificar para que se vea y te deje po
 
 3- En la seccion **Enviar ruta de validación**:
 
-- [ ] Saber explicar si en esta opcion es para Empleado o Usuario Arquos
-- [ ] Cambiar las imagenes por unas donde se vean sin menos censura
+- [x] Saber explicar si en esta opcion es para Empleado o Usuario Arquos
+- [x] Cambiar las imagenes por unas donde se vean sin menos censura
 
 **ÓRDENES**
 
 1- En la seccion **Bajar órdenes de trabajo**:
 
-- [ ] Cambiar las imagenes por unas donde se vean sin menos censura
+- [x] Cambiar las imagenes por unas donde se vean sin menos censura
 
 2- En la seccion **Capturar órdenes**:
 
-- [ ] Cambiar las imagenes por unas donde se vean sin menos censura
+- [x] Cambiar las imagenes por unas donde se vean sin menos censura
 
 3- En la seccion **Enviar órdenes capturadas**:
 
-- [ ] Cambiar las imagenes por unas donde se vean sin menos censura
+- [x] Cambiar las imagenes por unas donde se vean sin menos censura
 
 ---
 
@@ -103,5 +103,5 @@ revisa si esta parte de usuarios se puede modificar para que se vea y te deje po
 
 2- En la seccion **Verificar desde la aplicacion de Arquos OPR**:
 
-- [ ] Añadir capturas de pantalla de las ventanas que tengo que entrar para llegar
-- [ ] Aplicar censura moderada
+- [x] Añadir capturas de pantalla de las ventanas que tengo que entrar para llegar
+- [x] Aplicar censura moderada

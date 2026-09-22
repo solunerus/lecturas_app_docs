@@ -6,11 +6,11 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Fácil de usar',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+       image: '/img/arquos_facil_usar.webp',
     description: (
       <>
-        Arquos OPR es una plataforma de gestión de operaciones de lectura y validación de medidores. Con ayuda de una interfaz intuitiva y herramientas potentes, 
-        permite a los usuarios gestionar rutas, capturar lecturas y validar datos de manera eficiente.
+        Gestiona rutas, captura lecturas y valida datos desde una interfaz intuitiva, pensada
+        para agilizar el trabajo en campo.
       </>
     ),
   },
@@ -19,14 +19,14 @@ const FeatureList = [
     image: '/img/imagen_arquos_medio.webp',
     description: (
       <>
-        Arquos OPR se centra en la gestión de lecturas y validación de medidores. Los usuarios pueden
-        descargar rutas, capturar lecturas y validar datos de manera eficiente.      
+        Descarga rutas, captura lecturas y valida la información de tus medidores de forma
+        rápida y organizada.
       </>
     ),
   },
   {
     title: 'Potenciado por Flutter',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: '/img/arquos_flutter_fast.webp',
     description: (
       <>
         Arquos OPR está desarrollado con Flutter, lo que garantiza un rendimiento óptimo y una 
