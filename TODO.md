@@ -1,5 +1,21 @@
 # MODIFICACIONES PENDINTES
 
+## PERMISOS QUE TIENE EL USUARIO ARQUOS
+
+**Al iniciar sesion como un usuarios Arquos, se habilitan unas opciones extras:**
+
+La mayoria de cosas vienen del menu desplegable de la izquierda, son opciones adicionales
+- [ ] AÑADIR EXPLICACION: Opcion de documentos
+- [ ] Dentro de Documentos, vienen 2 opciones(**Información enviada**, **Información Eliminada**), explica cada una
+
+Dentro de **Información enviada** vienen 3 opciones(`Lecturas`, `Validacion`, `Ordenes`), explica cada una
+- [ ] **Informacion enviada**: Dentro de `Lecturas` vendran las lecturas capturadas
+- [ ] **Informacion enviada**: Dentro de `Validaciones` vendran las validaciones capturadas
+- [ ] **Informacion enviada**: Dentro de `Ordenes` vendran las ordenes capturadas
+
+--- 
+
+# MODIFICACIONES REALIZADAS
 ## HOME
 
 - [x] Cambiar las redes sociales, que sean de Nerus

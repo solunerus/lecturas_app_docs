@@ -1,6 +1,7 @@
 {
-  "label": "Actualización",
+  "label": "ACTUALIZACIÓN",
   "position": 4,
+  "className": "sidebar-section-title",
   "link": {
     "type": "generated-index",
     "title": "Guía de actualización",

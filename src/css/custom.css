@@ -64,8 +64,18 @@
   text-underline-offset: 3px;
 }
 
+.sidebar-section-title {
+  margin-top: 1rem;
+}
+
+.sidebar-section-title > .menu__list-item-collapsible > .menu__link {
+  font-weight: 700;
+}
+
 .doc-img-single {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin: 1.75rem 0;
 }
@@ -76,6 +86,12 @@
   height: auto;
   border-radius: 8px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+.doc-img-single figcaption {
+  margin-top: 0.6rem;
+  text-align: center;
+  font-weight: 600;
 }
 
 .img-gallery {

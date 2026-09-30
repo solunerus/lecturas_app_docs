@@ -1,7 +1,7 @@
 {
-  "label": "Autenticación",
+  "label": "AUTENTICACIÓN",
   "position": 2,
-  "className": "sidebar-item-autenticacion",
+  "className": "sidebar-section-title",
   "link": {
     "type": "generated-index",
     "title": "Autenticación en Arquos OPR",

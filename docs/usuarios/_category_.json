@@ -1,10 +1,12 @@
 {
-  "label": "Usuarios",
+  "label": "USUARIOS",
   "position": 3,
+  "collapsible": true,
+  "className": "sidebar-section-title",
   "link": {
     "type": "generated-index",
     "title": "Usuarios en Arquos OPR",
-    "description": "Una vez configurada la conexión e iniciada la sesión, aquí encontrarás el menú principal de usuarios y cómo trabajar con sus tres apartados: Lecturas, Validación y Órdenes, incluyendo cómo bajar rutas, capturar información y enviarla al servidor.",
-    "keywords": ["usuarios", "lecturas", "validación", "órdenes", "menú principal", "arquos opr"]
+    "description": "Una vez configurada la conexión e iniciada la sesión, aquí encontrarás el menú principal de usuarios y cómo trabajar con sus apartados: Lecturas, Validación, Órdenes e Imágenes, incluyendo cómo bajar rutas, capturar información, enviarla al servidor y consultar tu historial de documentos.",
+    "keywords": ["usuarios", "lecturas", "validación", "órdenes", "imágenes", "menú principal", "arquos opr"]
   }
 }

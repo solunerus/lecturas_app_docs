@@ -31,7 +31,12 @@ const config = {
   projectName: "lecturas_app_docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  
+    markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // Puedes usar 'ignore', 'warn' o 'throw'
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you

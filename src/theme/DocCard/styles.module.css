@@ -1,0 +1,60 @@
+.cardContainer {
+  --ifm-link-color: var(--ifm-color-emphasis-800);
+  --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+  --ifm-link-hover-decoration: none;
+
+  display: block;
+  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all var(--ifm-transition-fast) ease;
+  transition-property: border, box-shadow;
+}
+
+.cardContainer:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 20%);
+}
+
+.cardContainer *:last-child {
+  margin-bottom: 0;
+}
+
+.cardHeadingLink {
+  display: block;
+  color: inherit;
+}
+
+.cardFallbackDescription {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.cardSubItemList {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding-top: 0.6rem;
+}
+
+.cardSubItem {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.cardSubItem::before {
+  content: '›';
+  display: inline-block;
+  width: 1rem;
+  color: var(--ifm-color-primary);
+  font-weight: 700;
+}
+
+.cardSubItemLink {
+  color: var(--ifm-color-emphasis-700);
+  text-decoration: none;
+}
+
+.cardSubItemLink:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: underline;
+}
